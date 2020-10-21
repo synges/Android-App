@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="NasaImgDatePickBtn">Choose a date</string>
+    <string name="NasaImgSubmitBtn">Search</string>
+    <string name="NasaImgFavBtn">Favourites</string>
+
+    <string name="NasaImgDateText">Temp</string>
+    <string name="NasaImgFragmentImageUrlText">No Image Found</string>
+    <string name="NasaImgFragmentTitle">No Title Found</string>
+    <string name="NasaImgFragmentDate">Unknown Date</string>
+    <string name="NasaImgFragmentAddToFav">Add To Favourites</string>
+    <string name="NasaImgSearch">Search</string>
+    <string name="DeleteMessage1">Do you really want to remove this image from your favourites?</string>
+    <string name="DeletedToastDeny">Nothing Deleted</string>
+    <string name="DeletedToastAccept">Image Removed From Favourites</string>
+    <string name="home">Home</string>
+    <string name="nasaImg">NASA Image of the Day Search</string>
+    <string name="bbc">BBC News reader</string>
+    <string name="guardian">The Guardian News Article Search</string>
+    <string name="nasa_earth">NASA Earth Imagery Database</string>
+    <string name="help">Help</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="favorite_instructions">Click to view or long click to delete</string>
+    <string name="finish">Finish</string>
+    <string name="longitude" translatable="false">Longitude:</string>
+    <string name="latitude" translatable="false">Latitude:</string>
+    <string name="date">Date:</string>
+    <string name="add_favourites">Add to Favourites</string>
+    <string name="main_instructions">Enter the longitude and latitude of a position on earth</string>
+    <string name="lon_instructions">Ranges from -180.00 to 180.00</string>
+    <string name="lat_instructions">Ranges from -90.00 to 90.00</string>
+    <string name="fetch_image">Fetch Image</string>
+    <string name="view_favorites">View Favorites</string>
+    <string name="cant_favorite">Can\'t add to favorites</string>
+    <string name="no_image">No image found for the provided coordinates</string>
+    <string name="delete_this">Delete this Item?</string>
+    <string name="yes">Yes</string>
+    <string name="item_exist">Item already exists in favorites</string>
+    <string name="author">Author:</string>
+    <string name="valid_coordinates">Please enter valid coordinates</string>
+    <string name="lon_lat_instructions">Enter a longitude value between -180 and 180 and a latitude value between -90 and 90</string>
+    <string name="ok">OK</string>
+    <string name="final_project">Final Project for CST2335</string>
+    <string name="welcome_message">Welcome, Choose one of the Main four activities this app provides</string>
+    <string name="nasa_image">Nasa Image of the Day</string>
+    <string name="img_of_day_instructions">Select a date by pressing \"CHOOSE A DATE\". Then press \"SEARCH\" to view that date\'s image information. Two new buttons will appear. Select image url to view the image and select \" ADD TO FAVOURITES\" to add the image to your favourites list. To view favourites select \"FAVOURITES\".  Within the favourites list you can search for a specific image, or long press an image to delete it from favourites.</string>
+    <string name="versionNum">Version: 1</string>
+    <string name="NasaImgAddToDBSnack">Image added to favourites</string>
+    <string name="undo">UNDO</string>
+    <string name="NasaImgRemoveFromDBSnack">Image Removed From Favourites</string>
+    <string name="item1">Hello</string>
+    <string name="NasaImgAlertTitle">Remove Favourite?</string>
+    <string name="nasaImgKey" translatable="false">NasaImgKey</string>
+    <string name="NasaImgBackBtn">Back</string>
+    <string name="NasaImgOpenImg">Open Image</string>
+    <string name="hide">Hide</string>
+
+    //Guardian Strings
+    <string name="search_hint">Enter search term</string>
+    <string name="search">Search</string>
+    <string name="undo_message">Undone</string>
+
+    <string name="guardian_help">-Enter a search term and click the search button to search for Guardian articles\n\n-Click an article to get detailed information\n\n-Long click add to favourites</string>
+    <string name="searching">searching...</string>
+    <string name="guardian_author">Author: Max Besner</string>
+    <string name="title">Title: </string>
+    <string name="url"> Url: </string>
+    <string name="section_name">Section Name: </string>
+    <string name="delete">Delete From Favourites</string>
+    <string name="details">More Details</string>
+
+    <string name="AlreadyFav">Image already a favourite</string>
+    <string name="FutureDate">Do not choose a date in the future</string>
+    <string name="SelectADate">Please select a date</string>
+    <string name="OpenImageInBrowser">Open Image In Browser</string>
+
+
+    // BBC Strings
+    <string name="bbc_showAllBtn">SHOW ALL</string>
+    <string name="bbc_favoritesBtn">SHOW FAVORITES</string>
+    <string name="bbc_addMailText">Insert your email here</string>
+    <string name="bbc_addMailBtn">ADD TO MAILING LIST</string>
+    <string name="bbc_helpBtn">HELP</string>
+    <string name="btnFragment_Btn">RETURN</string>
+    <string name="addFavToast">Added to favorites</string>
+    <string name="bbc_removeFavToast">Removed from favorites</string>
+    <string name="bbc_displayLatestSnackBar">DISPLAYING LATEST ARTICLES</string>
+    <string name="bbc_displayFavSnackBar">DISPLAYING FAVORITE ARTICLES</string>
+    <string name="bbc_addFavAlertTitle">Add to Favorites</string>
+    <string name="bbc_removeFavAlertTitle">Remove from Favorites</string>
+    <string name="bbc_addToFavAlertMsg">Do you wish to add article to favorites</string>
+    <string name="bbc_removeFavAlertMsg">Do you wish to remove article from favorites?</string>
+    <string name="bbc_yes">YES</string>
+    <string name="bbc_no">NO</string>
+    <string name="bbc_emailToast">has been added to the mailing list</string>
+    <string name="bbc_helpAlertTitle">HOW TO USE APP</string>
+    <string name="bbc_OK">OK</string>
+    <string name="bbc_helpText1">- Click on SHOW ALL to display latest articles</string>
+    <string name="bbc_helpText2">- Click on SHOW FAVORITES to display favorite articles</string>
+    <string name="bbc_helpText3">- Insert email address and click button to add email to mailing list</string>
+    <string name="bbc_helpText4">- Long click on an article to add to add to or remove from favorites</string>
+    <string name="bbc_helpText5">- Click on an article to display article details</string>
+
+
+</resources>

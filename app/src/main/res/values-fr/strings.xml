@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="item1">Bonjour</string>
+    <string name="help">" Aidez-moi"</string>
+    <string name="open">Ouvert</string>
+    <string name="close">Fermer</string>
+    <string name="favorite_instructions">" Cliquez pour afficher ou cliquez longuement pour supprimer"</string>
+    <string name="finish">terminer</string>
+    <string name="date">Date:</string>
+    <string name="add_favourites">Ajouter aux Favoris</string>
+    <string name="main_instructions">" Entrez la longitude et la latitude d'une position sur terre"</string>
+    <string name="lon_instructions">" De -180,00 à 180,00"</string>
+    <string name="lat_instructions">" De -90,00 à 90,00"</string>
+    <string name="fetch_image">" Récupérer l'image"</string>
+    <string name="view_favorites">" Afficher les favoris"</string>
+    <string name="cant_favorite">" Impossible d'ajouter aux favoris"</string>
+    <string name="no_image">" Aucune image trouvée pour les coordonnées fournies"</string>
+    <string name="delete_this">" Supprimer cet élément?"</string>
+    <string name="yes">Oui</string>
+    <string name="item_exist">" L'article existe déjà dans les favoris"</string>
+    <string name="author">Auteur:</string>
+    <string name="valid_coordinates">" Veuillez saisir des coordonnées valides"</string>
+    <string name="lon_lat_instructions">" Entrez une valeur de longitude entre -180 et 180 et une valeur de latitude entre -90 et 90"</string>
+    <string name="ok">"D'accord "</string>
+    <string name="final_project">" Projet final pour CST2335"</string>
+    <string name="welcome_message">" Bienvenue, choisissez l'une des quatre activités principales proposées par cette application"</string>
+
+
+    //Guardian Strings
+    <string name="search_hint">Entrez votre terme de recherche</string>
+    <string name="search">Recherchez</string>
+    <string name="undo_message">Terminé</string>
+    <string name="guardian_help">-Saisissez un terme de recherche et cliquez sur le bouton de recherche pour rechercher des articles Guardian \n \n-Cliquez sur un article pour obtenir des informations détaillées \n \n-Cliquez longuement sur Ajouter aux favoris</string>
+    <string name="searching">cherchons...</string>
+    <string name="guardian_author">Auteur: Max Besner</string>
+    <string name="title">Titre: </string>
+    <string name="url"> Url: </string>
+    <string name="section_name">Nom de Section: </string>
+    <string name="delete">Terminer</string>
+
+    <string name="NasaImgDatePickBtn">Choisissez une date</string>
+    <string name="NasaImgSubmitBtn">Chercher</string>
+    <string name="NasaImgFavBtn">Favoris</string>
+    <string name="NasaImgDateText">Temp</string>
+    <string name="NasaImgFragmentImageUrlText">Aucune image trouvée</string>
+    <string name="NasaImgFragmentTitle">Aucun titre trouvé</string>
+    <string name="NasaImgFragmentDate">Date inconnue</string>
+    <string name="NasaImgFragmentAddToFav">Ajouter aux Favoris</string>
+    <string name="NasaImgSearch">Chercher</string>
+    <string name="NasaImgAlertTitle">Supprimer le favori?</string>
+    <string name="DeleteMessage1">Voulez-vous vraiment supprimer cette image des favoris?</string>
+    <string name="DeletedToastDeny">Rien supprimé</string>
+    <string name="DeletedToastAccept">Image supprimée des favoris</string>
+    <string name="nasa_image">Image de la Nasa du jour</string>
+    <string name="img_of_day_instructions">Sélectionnez une date en appuyant sur \"CHOISIR UNE DATE\". Appuyez ensuite sur \"RECHERCHER\" pour afficher les informations d\'image de cette date. Deux nouveaux boutons apparaissent. Sélectionnez l\'URL de l\'image pour afficher l\'image et sélectionnez \"AJOUTER AUX FAVORIS\" pour ajouter l\'image à votre liste de favoris. Pour afficher les favoris, sélectionnez \"FAVORIS\". Dans la liste des favoris, vous pouvez rechercher une image spécifique ou appuyer longuement sur une image pour la supprimer des favoris.</string>
+    <string name="versionNum">Version 1</string>
+    <string name="NasaImgAddToDBSnack">Image ajoutée aux favoris</string>
+    <string name="NasaImgRemoveFromDBSnack">Image supprimée des favoris</string>
+    <string name="undo">ANNULER</string>
+    <string name="NasaImgBackBtn">Revenir</string>
+    <string name="NasaImgOpenImg">Ouvrir l\'image</string>
+
+    <string name="AlreadyFav">Image déjà un favori</string>
+    <string name="FutureDate">Ne choisissez pas de date dans le futur</string>
+    <string name="SelectADate">Veuillez sélectionner une date</string>
+    <string name="OpenImageInBrowser">Ouvrir l\'image dans le navigateur</string>
+    <string name="details">Plusieurs Details</string>
+
+    <string name="bbc_showAllBtn">AFFICHER TOUT</string>
+    <string name="bbc_favoritesBtn">AFFICHER LES FAVORIS</string>
+    <string name="bbc_addMailText">Insérez votre email ici</string>
+    <string name="bbc_addMailBtn">AJOUTER À LA LISTE DE DIFFUSION</string>
+    <string name="bbc_helpBtn">AIDEZ-MOI</string>
+    <string name="btnFragment_Btn">REVENIR</string>
+    <string name="addFavToast">Ajouté aux favoris</string>
+    <string name="bbc_removeFavToast">Supprimé des favoris</string>
+    <string name="bbc_displayLatestSnackBar">AFFICHAGE DES DERNIERS ARTICLES</string>
+    <string name="bbc_displayFavSnackBar">AFFICHAGE DES ARTICLES PRÉFÉRÉS</string>
+    <string name="bbc_addFavAlertTitle">Ajouter aux Favoris</string>
+    <string name="bbc_removeFavAlertTitle">Retirer des favoris</string>
+    <string name="bbc_addToFavAlertMsg">Souhaitez-vous ajouter l\'article aux favoris</string>
+    <string name="bbc_removeFavAlertMsg">Souhaitez-vous supprimer l\'article des favoris?</string>
+    <string name="bbc_yes">OUI</string>
+    <string name="bbc_emailToast">a été ajouté à la liste de diffusion</string>
+    <string name="bbc_no">NON</string>
+    <string name="bbc_helpAlertTitle">COMMENT UTILISER L\'APPLICATION</string>
+    <string name="bbc_OK">" D'accord"</string>
+
+
+    <string name="hide">Cacher</string>
+    <string name="nasaImg">Image de la NASA de la recherche de jour</string>
+    <string name="bbc">Lecteur BBC News</string>
+    <string name="guardian">Recherche d\'articles dans The Guardian News</string>
+    <string name="nasa_earth">Base de données d\'images de la Terre de la NASA</string>
+    <string name="home">Accueil</string>
+    <string name="bbc_helpText1">- Cliquez sur MONTRER TOUT pour afficher les derniers articles</string>
+    <string name="bbc_helpText2">-  Cliquez sur AFFICHER LES FAVORIS pour afficher les articles préférés</string>
+    <string name="bbc_helpText3">-  Insérer une adresse e-mail et cliquer sur le bouton pour ajouter un e-mail à la liste de diffusion</string>
+    <string name="bbc_helpText4">-  Cliquez longuement sur un article à ajouter pour ajouter ou supprimer des favoris</string>
+    <string name="bbc_helpText5">-  Cliquez sur un article pour afficher les détails de l\'article</string>
+
+</resources>

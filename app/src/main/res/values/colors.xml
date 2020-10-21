@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="nasa">#0B3D91</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FF8A00</color>
+    <color name="bbcred">#B22222</color>
+    <color name="nasaImgToolBar">#D7B377</color>
+    <color name="nasaImgButton">#8F754F</color>
+    <color name="nasaImgText">#183446</color>
+    <color name="nasaImgBackground">#F5F0F6</color>
+    <color name="fragmentBackground">#E7E89B  </color>
+
+</resources>

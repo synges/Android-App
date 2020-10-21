@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        android:orderInCategory="25"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/nasa"
+        android:orderInCategory="50"
+        android:icon="@drawable/nasa"
+        app:showAsAction="always"
+        android:title="@string/nasaImg"/>
+
+    <item android:id="@+id/nasadb"
+        android:orderInCategory="60"
+        android:icon="@drawable/globe"
+        app:showAsAction="always"
+        android:title="@string/nasa_earth"/>
+
+
+    <item android:id="@+id/bbc"
+        android:icon="@drawable/bbc"
+        android:orderInCategory="75"
+        app:showAsAction="always"
+        android:title="@string/bbc"/>
+
+    <item android:id="@+id/guardian"
+        android:icon="@drawable/news"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/guardian"/>
+
+    <item android:id="@+id/help_item"
+        android:icon="@drawable/help"
+        android:title="@string/help"
+        app:showAsAction="never"
+        android:orderInCategory="400"/> <!-- This uses showAsAction=never, so look at title= parameter -->
+
+</menu>

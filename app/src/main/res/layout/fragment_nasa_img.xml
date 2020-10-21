@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/NasaImgFragment"
+    tools:context=".nasa_img_activity.NasaImgFragment">
+
+    <TextView
+        android:id="@+id/NasaImgFragmentImageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NasaImgFragmentTitle"
+        android:textAlignment="textStart"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/NasaImgFragmentImageDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NasaImgFragmentImageTitle"
+        android:text="@string/NasaImgFragmentDate"
+        android:textAlignment="textStart"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/NasaImgFragmentDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NasaImgAddToFav"
+        android:text="@string/NasaImgFragmentDate"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/NasaImgFragmentImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NasaImgFragmentImageDate"
+        android:text="@string/NasaImgFragmentImageUrlText" />
+
+    <ProgressBar
+        android:id="@+id/NasaImgProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NasaImgFragmentImageUrl"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/NasaImgAddToFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NasaImgProgressBar"
+        android:text="@string/NasaImgFragmentAddToFav"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

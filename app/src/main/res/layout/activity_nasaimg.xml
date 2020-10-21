@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nasa_img_activity.NASAImgActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nasaImgToolBar" />
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nasaImgBackground"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/NasaImgDatePickerBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/nasaImgButton"
+                    android:text="@string/NasaImgDatePickBtn"
+                    android:textColor="@color/nasaImgText" />
+
+
+                <Button
+                    android:id="@+id/NasaImgSubmitBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NasaImgDatePickerBtn"
+                    android:background="@color/nasaImgButton"
+                    android:text="@string/NasaImgSubmitBtn"
+                    android:textColor="@color/nasaImgText" />
+
+
+                <Button
+                    android:id="@+id/NasaImgFavBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NasaImgSubmitBtn"
+                    android:background="@color/nasaImgButton"
+                    android:text="@string/NasaImgFavBtn"
+                    android:textColor="@color/nasaImgText" />
+
+                <EditText
+                    android:id="@+id/NasaImgDateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/NasaImgFavBtn"
+                    android:layout_centerHorizontal="true"
+                    android:inputType="date"
+                    android:textAlignment="center"
+                    android:textSize="35sp"
+                    android:visibility="visible" />
+
+
+                <FrameLayout
+                    android:id="@+id/NasaImgFragmentHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NasaImgDateText"
+                    android:layout_marginVertical="18dp" />
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/navigation_drawer_header"
+            app:menu="@menu/menu_drawer" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>
